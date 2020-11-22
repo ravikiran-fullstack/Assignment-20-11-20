@@ -153,15 +153,230 @@ tr3.append(tr3_td1, tr3_td2);
 //Row3 Ends
 
 
+//Row4 start
+const tr4_td1Text = document.createTextNode('React');
+const tr4_td1 = document.createElement('td');
+tr4_td1.append(tr4_td1Text);
+
+const tr4_td2Input = document.createElement('input');
+tr4_td2Input.setAttribute('type', 'range');
+tr4_td2Input.setAttribute('name', 'js');
+tr4_td2Input.setAttribute('id', 'js');
+tr4_td2Input.setAttribute('min', '0');
+tr4_td2Input.setAttribute('max', '10');
+tr4_td2Input.setAttribute('value', '6');
+
+const tr4_td2 = document.createElement('td');
+tr4_td2.append(tr4_td2Input);
+
+const tr4 = document.createElement('tr');
+tr4.append(tr4_td1, tr4_td2);
+//Row4 Ends
+
+//Row5 start
+const tr5_td1Text = document.createTextNode('Redux');
+const tr5_td1 = document.createElement('td');
+tr5_td1.append(tr5_td1Text);
+
+const tr5_td2Input = document.createElement('input');
+tr5_td2Input.setAttribute('type', 'range');
+tr5_td2Input.setAttribute('name', 'js');
+tr5_td2Input.setAttribute('id', 'js');
+tr5_td2Input.setAttribute('min', '0');
+tr5_td2Input.setAttribute('max', '10');
+tr5_td2Input.setAttribute('value', '8');
+
+const tr5_td2 = document.createElement('td');
+tr5_td2.append(tr5_td2Input);
+
+const tr5 = document.createElement('tr');
+tr5.append(tr5_td1, tr5_td2);
+//Row5 Ends
+
+//Row6 start
+const tr6_td1Text = document.createTextNode('Mongo');
+const tr6_td1 = document.createElement('td');
+tr6_td1.append(tr6_td1Text);
+
+const tr6_td2Input = document.createElement('input');
+tr6_td2Input.setAttribute('type', 'range');
+tr6_td2Input.setAttribute('name', 'js');
+tr6_td2Input.setAttribute('id', 'js');
+tr6_td2Input.setAttribute('min', '0');
+tr6_td2Input.setAttribute('max', '10');
+tr6_td2Input.setAttribute('value', '8');
+
+const tr6_td2 = document.createElement('td');
+tr6_td2.append(tr6_td2Input);
+
+const tr6 = document.createElement('tr');
+tr6.append(tr6_td1, tr6_td2);
+//Row6 Ends
+
+//Row7 start
+const tr7_td1Text = document.createTextNode('Deployment');
+const tr7_td1 = document.createElement('td');
+tr7_td1.append(tr7_td1Text);
+
+const tr7_td2Input = document.createElement('input');
+tr7_td2Input.setAttribute('type', 'range');
+tr7_td2Input.setAttribute('name', 'js');
+tr7_td2Input.setAttribute('id', 'js');
+tr7_td2Input.setAttribute('min', '0');
+tr7_td2Input.setAttribute('max', '10');
+tr7_td2Input.setAttribute('value', '10');
+
+const tr7_td2 = document.createElement('td');
+tr7_td2.append(tr7_td2Input);
+
+const tr7 = document.createElement('tr');
+tr7.append(tr7_td1, tr7_td2);
+//Row7 Ends
+
 const techSkillsTable = document.createElement('table');
 techSkillsTable.classList.add('skillsTable');
 techSkillsTable.append(tr1);
 techSkillsTable.append(tr2);
 techSkillsTable.append(tr3);
+techSkillsTable.append(tr4);
+techSkillsTable.append(tr5);
+techSkillsTable.append(tr6);
+techSkillsTable.append(tr7);
 
 const techSkillsDiv = document.createElement('div');
 techSkillsDiv.append(techSkillsTable);
 div2.append(techSkillsDiv);
+
+///////////////Additional skills
+const skillsInputTitle2 = document.createElement('div');
+skillsInputTitle2.classList.add('skillsInput');
+
+const skillsInputTitle2Para = document.createElement('p');
+skillsInputTitle2Para.innerHTML = 'Additional Skills';
+skillsInputTitle2.append(skillsInputTitle2Para);
+
+const skillsInputAdditionalDiv = document.createElement('div');
+skillsInputAdditionalDiv.append(skillsInputTitle2);
+div2.append(skillsInputAdditionalDiv);
+
+//Row8 start
+const tr8_td1Text = document.createTextNode('Project Management');
+const tr8_td1 = document.createElement('td');
+tr8_td1.append(tr8_td1Text);
+
+const tr8_td2Input = document.createElement('input');
+tr8_td2Input.setAttribute('type', 'range');
+tr8_td2Input.setAttribute('name', 'js');
+tr8_td2Input.setAttribute('id', 'js');
+tr8_td2Input.setAttribute('min', '0');
+tr8_td2Input.setAttribute('max', '10');
+tr8_td2Input.setAttribute('value', '10');
+
+const tr8_td2 = document.createElement('td');
+tr8_td2.append(tr8_td2Input);
+
+const tr8 = document.createElement('tr');
+tr8.append(tr8_td1, tr8_td2);
+//Row8 Ends
+
+//Row9 start
+const tr9_td1Text = document.createTextNode('Recruitment');
+const tr9_td1 = document.createElement('td');
+tr9_td1.append(tr9_td1Text);
+
+const tr9_td2Input = document.createElement('input');
+tr9_td2Input.setAttribute('type', 'range');
+tr9_td2Input.setAttribute('name', 'js');
+tr9_td2Input.setAttribute('id', 'js');
+tr9_td2Input.setAttribute('min', '0');
+tr9_td2Input.setAttribute('max', '10');
+tr9_td2Input.setAttribute('value', '7');
+
+const tr9_td2 = document.createElement('td');
+tr9_td2.append(tr9_td2Input);
+
+const tr9 = document.createElement('tr');
+tr9.append(tr9_td1, tr9_td2);
+//Row9 Ends
+
+
+//Row10 start
+const tr10_td1Text = document.createTextNode('Business Development');
+const tr10_td1 = document.createElement('td');
+tr10_td1.append(tr10_td1Text);
+
+const tr10_td2Input = document.createElement('input');
+tr10_td2Input.setAttribute('type', 'range');
+tr10_td2Input.setAttribute('name', 'js');
+tr10_td2Input.setAttribute('id', 'js');
+tr10_td2Input.setAttribute('min', '0');
+tr10_td2Input.setAttribute('max', '10');
+tr10_td2Input.setAttribute('value', '10');
+
+const tr10_td2 = document.createElement('td');
+tr10_td2.append(tr10_td2Input);
+
+const tr10 = document.createElement('tr');
+tr10.append(tr10_td1, tr10_td2);
+//Row10 Ends
+
+
+//Row11 start
+const tr11_td1Text = document.createTextNode('Editing');
+const tr11_td1 = document.createElement('td');
+tr11_td1.append(tr11_td1Text);
+
+const tr11_td2Input = document.createElement('input');
+tr11_td2Input.setAttribute('type', 'range');
+tr11_td2Input.setAttribute('name', 'js');
+tr11_td2Input.setAttribute('id', 'js');
+tr11_td2Input.setAttribute('min', '0');
+tr11_td2Input.setAttribute('max', '10');
+tr11_td2Input.setAttribute('value', '7');
+
+const tr11_td2 = document.createElement('td');
+tr11_td2.append(tr11_td2Input);
+
+const tr11 = document.createElement('tr');
+tr11.append(tr11_td1, tr11_td2);
+//Row11 Ends
+
+
+//Row11 start
+const tr12_td1Text = document.createTextNode('Fundraising');
+const tr12_td1 = document.createElement('td');
+tr12_td1.append(tr12_td1Text);
+
+const tr12_td2Input = document.createElement('input');
+tr12_td2Input.setAttribute('type', 'range');
+tr12_td2Input.setAttribute('name', 'js');
+tr12_td2Input.setAttribute('id', 'js');
+tr12_td2Input.setAttribute('min', '0');
+tr12_td2Input.setAttribute('max', '10');
+tr12_td2Input.setAttribute('value', '10');
+
+const tr12_td2 = document.createElement('td');
+tr12_td2.append(tr12_td2Input);
+
+const tr12 = document.createElement('tr');
+tr12.append(tr12_td1, tr12_td2);
+//Row11 Ends
+
+
+const additionalSkillsTable = document.createElement('table');
+additionalSkillsTable.classList.add('skillsTable');
+additionalSkillsTable.append(tr8);
+additionalSkillsTable.append(tr9);
+additionalSkillsTable.append(tr10);
+additionalSkillsTable.append(tr11);
+additionalSkillsTable.append(tr12);
+
+
+const additionalSkillsDiv = document.createElement('div');
+additionalSkillsDiv.append(additionalSkillsTable);
+div2.append(additionalSkillsDiv);
+
+
 bodyHalf1.append(div2);
 ////////////////
 
