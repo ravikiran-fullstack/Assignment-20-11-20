@@ -253,6 +253,13 @@ input[type=range]:focus::-ms-fill-upper {
   background: #F8BE27;
 }
 
+.title1Style{
+  display: inline-block; text-align: left; width:49%;
+}
+
+.title2Style{
+  display: inline-block; text-align: right; width:49%;
+}
 /************************************************************************************/
 
 .iconColor{

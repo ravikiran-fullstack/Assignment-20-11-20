@@ -558,53 +558,6 @@ education1Div.append(education1TitleDiv, education1DateDiv);
 div4.append(education1Div);
 bodyHalf3.append(div4);
 
-const  education1Course = document.createElement('div');
-const education1CourseNamePara = document.createElement('para');
-const education1CourseName = document.createTextNode('Thinkful, Chicago, IL');
-
-education1CourseNamePara.append(education1CourseName);
-education1Course.append(education1CourseNamePara);
-div4.append(education1Course);
-bodyHalf3.append(div4);
-
-
-const projectDescText = document.createTextNode('Project-focused intensive program with emphasis on Mongo, Express, React, and JavaScript (MERN) technical stack.');
-div4.append(projectDescText);
-bodyHalf3.append(div4);
-
-const education1DescDiv = document.createElement('div');
-education1DescDiv.classList.add('jobUlLeft');
-
-const education1DescUL = document.createElement('ul');
-
-const education1DescULli1 = document.createElement('li');
-const education1DescULli1Text = document.createTextNode(' Developed a full•stack web application, "RenewU", using React that allows users to explore various aspects of meditation. User\'s progress is stored on a backend created using Node and MongoDB.');
-education1DescULli1.append(education1DescULli1Text);
-education1DescUL.append(education1DescULli1);
-
-
-const education1DescULli2 = document.createElement('li');
-const education1DescULli2Text = document.createTextNode('Developed a language learning app, \'Foodie Phonetics" using spaced repetition and a Ihked list data structure. React was used to create the front end components while Node and Mongo were used to create a backend that stores user data.');
-education1DescULli2.append(education1DescULli2Text);
-education1DescUL.append(education1DescULli2);
-
-const education1DescULli3 = document.createElement('li');
-const education1DescULli3Text = document.createTextNode('Developed a concierge app, "Pley", for individuals looking for curated suggestions when visiting a new place. React was used to develop the front end which includes real-time chat, drag and  drop and variety of advanced features. The backend, built using Node, Express, and Mongo, takes advantage of well ¬ developed RESTful API, Geospatial searching, and user authentication with JWT.');
-education1DescULli3.append(education1DescULli3Text);
-education1DescUL.append(education1DescULli3);
-
-const education1DescULli4 = document.createElement('li');
-const education1DescULli4Text = document.createTextNode('Building relationships with key media players.');
-education1DescULli4.append(education1DescULli4Text);
-education1DescUL.append(education1DescULli4);
-
-
-education1DescDiv.append(education1DescUL);
-div4.append(education1DescDiv);
-bodyHalf3.append(div4);
-
-
-
 const fullBody = document.createElement('div');
 
 fullBody.append(bodyHalf1, bodyHalf2, bodyHalf3);
