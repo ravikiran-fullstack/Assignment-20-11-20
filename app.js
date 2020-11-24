@@ -383,24 +383,24 @@ bodyHalf1.append(div2);
 
 //Work experience
 
-const workHeading = document.createElement('div');
-workHeading.classList.add('heading1');
-const workImage = document.createElement('div');
-workImage.classList.add('headingImage');
-
-const workIcon = document.createElement('i');
-workIcon.setAttribute('class', 'fa fa-plus-circle iconColor');
-
-workImage.append(workIcon);
-
-const workTitle = document.createElement('p');
-workTitle.setAttribute('class', 'headingTitle');
-workTitle.innerHTML = 'Work Experience';
-
 const div3 = document.createElement('div');
-div3.append(workHeading, workImage, workTitle);
-bodyHalf1.append(div3);
+//div3.append(workHeading, workImage, workTitle);
 
+
+const work1Heading = document.createElement('div');
+work1Heading.classList.add('heading1');
+const work1Image = document.createElement('div');
+work1Image.classList.add('headingImage');
+const work1Icon = document.createElement('i');
+work1Icon.setAttribute('class', 'fa fa-plus-circle iconColor');
+work1Image.append(work1Icon);
+const work1Title = document.createElement('p');
+work1Title.setAttribute('class', 'headingTitle');
+work1Title.innerHTML = 'Work Experience';
+
+// const div3 = document.createElement('div');
+div3.append(work1Heading, work1Image, work1Title);
+bodyHalf1.append(div3);
 
 const job1TitleDiv = document.createElement('div');
 const job1Title = document.createTextNode('Event Manager');
@@ -457,6 +457,22 @@ const bodyHalf2 = document.createElement('div');
 bodyHalf2.classList.add('bodyHalf2');
 
 /////////////////////
+
+const workHeading = document.createElement('div');
+workHeading.classList.add('heading1');
+const workImage = document.createElement('div');
+workImage.classList.add('headingImage');
+
+const workIcon = document.createElement('i');
+workIcon.setAttribute('class', 'fa fa-plus-circle iconColor');
+
+workImage.append(workIcon);
+
+const workTitle = document.createElement('p');
+workTitle.setAttribute('class', 'headingTitle');
+workTitle.innerHTML = 'Work Experience';
+
+
 
 const bodyHalf3 = document.createElement('div');
 bodyHalf3.classList.add('bodyHalf3');
@@ -603,6 +619,31 @@ education1DescDiv.append(education1DescUL);
 div4.append(education1DescDiv);
 bodyHalf3.append(div4);
 
+
+const education1DegreeTitleDiv = document.createElement('div');
+const education1DegreeTitle = document.createTextNode('Engineering Immersion Program');
+education1DegreeTitleDiv.append(education1DegreeTitle);
+education1DegreeTitleDiv.classList.add('title1Style');
+
+
+const education1DegreeDateDiv = document.createElement('div');
+const education1DegreeDate = document.createTextNode('11/2018 - 06/2018');
+education1DegreeDateDiv.append(education1DegreeDate);
+education1DegreeDateDiv.classList.add('title2Style');
+
+const education1DegreeDiv = document.createElement('div');
+education1DegreeDiv.append(education1DegreeTitleDiv, education1DegreeDateDiv);
+div4.append(education1DegreeDiv);
+bodyHalf3.append(div4);
+
+const  education1Collage = document.createElement('div');
+const education1CollageNamePara = document.createElement('para');
+const education1CollageName = document.createTextNode('Thinkful, Chicago, IL');
+
+// education1CourseNamePara.append(education1CourseName);
+// education1Course.append(education1CourseNamePara);
+div4.append(education1CollageName);
+bodyHalf3.append(div4);
 
 
 const fullBody = document.createElement('div');

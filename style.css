@@ -260,6 +260,10 @@ input[type=range]:focus::-ms-fill-upper {
 .title2Style{
   display: inline-block; text-align: right; width:49%;
 }
+
+.jobUlLeft{
+  padding-left: 20px;
+}
 /************************************************************************************/
 
 .iconColor{
